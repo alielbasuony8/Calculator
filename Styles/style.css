@@ -33,7 +33,6 @@ body.toggle--isLight{
     color: var(--main-text-dark-color);
     padding: 10px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    max-height: 100vh;
 }
 .calculator.toggle--isLight{
     color: var(--main-text-light-color);
@@ -79,13 +78,14 @@ input:focus,input:hover{
 }
 
 .main{
-    height: 68vh;
+    height: 60vh;
     display: grid;
     grid-template-columns:repeat(4,1fr);
     grid-template-rows: repeat(5,auto);
     gap: 10px;
     justify-content: center;
     align-items: center;
+    margin-top: 1rem;
 }
 .btn{
     padding: 20px;
